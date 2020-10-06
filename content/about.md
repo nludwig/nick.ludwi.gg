@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-10-04T10:00:00-07:00
 title = "About Me"
 description = "Brief autobiographical info."

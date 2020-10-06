@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-10-04T11:01:54-07:00
 title = "Academic Paper Repository"
 description = "A central place to store links and copies of the publications I've contributed to."
@@ -23,17 +23,17 @@ Publications:
 1. H. Zhang, K. Dasbiswas, N.B. Ludwig, G. Han, B. Lee, S. Vaikuntanathan, D.V. Talapin. [Stable colloids in molten inorganic salts][1], *Nature* **542**, 328 (2017). [pdf][2] [supplementary][3]
 
 [1]:  https://www.nature.com/articles/nature21041
-[2]:  pdfs/2017-stableColloids.pdf
-[3]:  pdfs/2017-stableColloidsSI.pdf
-[4]:  pdfs/2018-fiPaper2.pdf
+[2]:  ../../pdfs/2017-stableColloids.pdf
+[3]:  ../../pdfs/2017-stableColloidsSI.pdf
+[4]:  ../../pdfs/2018-fiPaper2.pdf
 [5]:  https://arxiv.org/abs/1810.00918
 [6]:  https://aip.scitation.org/doi/10.1063/1.5043410
 [7]:  https://orcid.org/0000-0002-7345-659X
 [8]:  https://pubs.acs.org/doi/10.1021/acsnano.9b01292
-[9]:  pdfs//2019-restructuring.pdf
-[10]: pdfs/2019-restructuringSI.pdf
+[9]:  ../../pdfs//2019-restructuring.pdf
+[10]: ../../pdfs/2019-restructuringSI.pdf
 [11]: https://aip.scitation.org/doi/abs/10.1063/1.5141997
-[12]: pdf/2020-tactoids.pdf
+[12]: ../../pdf/2020-tactoids.pdf
 [13]: https://arxiv.org/abs/1909.03481
 [14]: https://knowledge.uchicago.edu/record/2065?ln=en
-[15]: pdfs/2019-NBLudwig-dissertation.pdf
+[15]: ../../pdfs/2019-NBLudwig-dissertation.pdf

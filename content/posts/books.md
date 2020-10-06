@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-10-04T14:25:19-07:00
 title = "Recently Read"
 description = "Good books I've read recently."
