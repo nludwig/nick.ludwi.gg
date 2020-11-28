@@ -7,5 +7,7 @@ draft: false
 Gmail: \
 nick.b.ludwig
 
+[PGP key](/posts/public-key)
+
 PGP fingerprint: \
-7AB63DFE6A0012B82DA06CA8668A32906A35E1DB
+B5EC4A20F4A2F6FE242A2052531D8C9EFF7E9155
