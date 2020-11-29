@@ -19,7 +19,7 @@ pygmentscodefencesguesssyntax = true
     description = "Nick Ludwig's personal website"
     keywords = "blog,developer,personal"
     info = "Backend Engineer, Physical Chemist"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "/img/avatar.jpg"
     # gravatar = "john.doe@example.com"
 
     favicon_32 = "/img/favicon-32x32.png"
@@ -113,6 +113,11 @@ pygmentscodefencesguesssyntax = true
 #     url = "https://myhugosite.com/index.xml"
 #     rel = "alternate"
 #     type = "application/rss+xml"
+[[params.social]]
+    name = "Bitcoin"
+    icon = "fa fa-btc"
+    weight = 7
+    url = "/posts/bitcoin-address/"
 
 
 [languages]

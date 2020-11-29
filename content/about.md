@@ -29,4 +29,4 @@ My reading interests are pretty broad.
 You can find a non-exhaustive list of some of
 the books I've enjoyed recently [here](/posts/books).
 
-![The Hidden People](/images/the-hidden-people.jpg)
+![The Hidden People](/img/the-hidden-people.jpg)

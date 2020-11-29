@@ -10,6 +10,9 @@ externalLink = ""
 series = []
 +++
 
+Currently reading Aristotle, according to
+[this reading order](https://philosophy.stackexchange.com/a/18325).
+
 Here's a non-exhaustive list of some of
 the books I've enjoyed recently.
 If it's on here, I'd recommend it!
