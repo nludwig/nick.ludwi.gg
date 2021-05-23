@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-10-04T10:00:00-07:00
+date = 2021-05-22T17:00:00-07:00
 title = "About Me"
 description = "Brief autobiographical info."
 slug = "" 
@@ -14,11 +14,15 @@ Hi!
 
 I'm Nick.
 These days, I'm employed by
+[Mod9](https://mod9.com/)
+dba
 [Remeeting](https://www.remeeting.com),
 where I write code and think about ASR.
 In the past, I studied complex liquid systems using
 computer simulation techniques like molecular dynamics
-and Monte Carlo (my favorite).
+and Monte Carlo (my favorite)
+in
+[Suri Vaiktuntanathan's research group](http://vaikuntanathan-group.uchicago.edu/).
 And before that, I studied chemistry!
 You can find some of my past work on
 [my Github](https://www.github.com/nludwig)

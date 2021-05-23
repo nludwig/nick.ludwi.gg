@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-10-04T14:25:19-07:00
+date = 2021-05-22T17:00:00-07:00
 title = "Recently Read"
 description = "Good books I've read recently."
 slug = "" 
@@ -28,7 +28,11 @@ If it's on here, I'd recommend it!
 * Philosophy, including,
   * *The Gay Science* by Neitzsche,
   * *A Guide for the Perplexed* by Schumacher,
+  * *Things Hidden Since the Foundation of the World* by Girard.
 * Non-fiction, including
   * *The Wealth of Nations* by Smith, 
   * *Animal Behavior* by Alcock,
   * *Anarchy and the Law* by Stringham.
+* Fiction, including
+  * *Crime and Punishment* by Dostoyevsky,
+  * *The Brothers Karamazov* by Dostoyevsky.
