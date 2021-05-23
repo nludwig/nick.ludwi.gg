@@ -33,16 +33,16 @@ Below are a compilation of instructions to make it easy on myself when I inevita
    to get the GUI working.
    [source](https://help.nextcloud.com/t/nextcloud-nightmare-php-code-is-shown-instead-of-web-interface/66661/5)
 1. Set up MariaDB.
-   1. Install:
+   * Install:
    ```bash
    sudo apt install mariadb-server
    ```
-   1. Initialize and launch MariaDB/MySQL server:
+   * Initialize and launch MariaDB/MySQL server:
    ```bash
    sudo mysql_secure_installation
    ```
    [source](https://computingforgeeks.com/how-to-install-mariadb-on-ubuntu-focal-fossa/)
-   1. Allow standard login to the DB:
+   * Allow standard login to the DB:
    ```bash
    sudo mysql  # Opens MySQL shell.
    > UPDATE mysql.user SET plugin = '' WHERE plugin = 'unix_socket';
