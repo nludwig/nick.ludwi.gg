@@ -19,7 +19,7 @@ to connect my devices, and running an
 ship.
 I wanted to host my own files as well, and ran across
 [Nextcloud](https://nextcloud.com/)
-and set it up as well.
+and decided to set it up.
 
 Below are a compilation of instructions to make it easy on myself when I inevitably need to set everything up again.
 
@@ -56,29 +56,32 @@ Below are a compilation of instructions to make it easy on myself when I inevita
 A series of commands that may work are as follows (on Ubuntu 20.04):
 ```bash
 INSTALL_PATH=/var/www
+# Check https://nextcloud.com/install/#instructions-server for newest versions.
 CURRENT_VERSION=nextcloud-21.0.2.zip
+APT_MODULES='mariadb-server apache2 php7.4 libapache2-mod-php7 ffmpeg'
+# Not certain about all these PHP modules.
+PHP_MODULES='ctype curl dom gd iconv json mbstring posix session xml zip zlib mysql fileinfo bz2 intl ldap smbclient ftp imap bcmap gmp exif imagick'
 
 wget https://download.nextcloud.com/server/releases/${CURRENT_VERSION}
-# Or check https://nextcloud.com/install/#instructions-server for newest versions
 unzip $CURRENT_VERSION
 sudo cp -r nextcloud ${INSTALL_PATH}
 
-sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt install mariadb-server apache2 php7.4 libapache2-mod-php7 ffmpeg
-for phpmod in ctype curl dom gd iconv json mbstring posix session xml zip zlib mysql fileinfo bz2 intl ldap smbclient ftp imap bcmap gmp exif imagick; do sudo apt install php7.4-${phpmod}; done
+sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt install ${APT_MODULES}
+for phpmod in ${PHP_MODULES}; do sudo apt install php7.4-${phpmod}; done
 
 sudo mysql_secure_installation
 sudo mysql  # Opens MySQL shell.
 > UPDATE mysql.user SET plugin = '' WHERE plugin = 'unix_socket';
 > FLUSH PRIVILEGES;
 
-sudo cat >> /etc/httpd/conf.d/nextcloud.conf << EOF
+sudo cat >> /etc/apache2/sites-available/nextcloud.conf << EOF
 Alias /nextcloud "/var/www/nextcloud/"
 
 <Directory /var/www/nextcloud/>
   Require all granted
   AllowOverride All
   Options FollowSymLinks MultiViews
-  Satist Any
+  Satisfy Any
 
   <IfModule mod_dav.c>
     Dav off
